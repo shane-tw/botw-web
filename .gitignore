@@ -1,0 +1,5 @@
+target
+botw-wasm/pkg
+wasm-pack.log
+node_modules
+dist

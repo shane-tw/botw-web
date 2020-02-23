@@ -1,0 +1,19 @@
+body {
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    background-color: #fff;
+    padding: 50px;
+    width: 800px;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    display: flex;
+}
+
+#download-link {
+    margin-top: 5px;
+}
