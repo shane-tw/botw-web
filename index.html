@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BOTW Save Converter</title>
+  </head>
+  <body>
+    <div id="main" class="main">
+      <h1>BOTW Save Converter</h1>
+      <p>
+        This allows converting your Breath of the Wild save from WiiU &lt;-&gt; Switch.<br>
+        Converting is as simple as clicking below and navigating to your save directory (which contains option.sav)
+      </p>
+      <input type="file" id="file-picker" webkitdirectory style="display:none;"><br>
+      <button id="file-picker-btn" onclick="document.getElementById('file-picker').click();">
+        Choose save directory (containing option.sav)
+      </button>
+      <a href="javascript:;" id="download-link" style="display:none;">
+        Click here if the save didn't download
+      </a>
+    </div>
+    <noscript>This page won't function without JavaScript.</noscript>
+  <script type="text/javascript" src="app.js"></script></body>
+</html>
