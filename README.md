@@ -15,7 +15,6 @@ Clone this repo. Make sure to clone the [botw-conv](https://github.com/shanepm/b
 In www directory, run one of the following:
 * `npm run start` - run in live mode
 * `npm run build` - build for production.  
-After building, use `wasm-opt -O3 file.wasm -o out.wasm` for optimal file size
 
 # Sources used
 * [WemI0/BOTW_SaveConv](https://github.com/WemI0/BOTW_SaveConv)
